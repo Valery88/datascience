@@ -33,7 +33,7 @@ def y_prediction_with_normalization(input_data):
     return new_df['Соотношение матрица-наполнитель'][0]
 
 def main():
-    st.title('Предсказание параметра: соотношение матрица-наполнитель. Web app')
+    st.title('Предсказание параметра: соотношение матрица-наполнитель.')
     matrix = 0
     density = st.text_input('Плотность, кг/м3')
     elasticity = st.text_input('Модуль упругости, ГПа')
